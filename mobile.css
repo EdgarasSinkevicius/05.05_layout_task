@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    background-color: blue;
+    color: white;
+    height: 5vh;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    margin: 0 10px;
+}
+.nav--menu {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+.social {
+    display: flex;
+    justify-content: right;
+    margin: 0 10px;
+}
