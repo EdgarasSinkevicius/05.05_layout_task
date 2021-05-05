@@ -1,0 +1,12 @@
+@media screen and (min-width: 1200px){
+    .content--box {
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-columns: 3fr 1fr 1fr;
+        grid-template-areas: 
+        'rob btn serv'
+        'rob lap sample'
+    }
+    .background--container {
+        height: 75vh;
+    }
+}
